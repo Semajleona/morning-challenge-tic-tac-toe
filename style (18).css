@@ -1,0 +1,35 @@
+*{box-sizing: border-box;
+ /* display: flex; */
+  /* flex-direction: column; */
+ /* justifty-content: center; */
+ /* align-items: center;} */
+
+body{
+  background-image: url(/anthony-ievlev-RZk2SjAGhZw-unsplash.jpg);
+}
+
+#gameBox{
+  background-color: orange;
+  color: black;
+  height: 500px;
+  width: 500px;
+
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+
+}
+
+.gridbtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   border: 5px solid white;
+  font-weight: 900;
+  font-size: 45px;
+ 
+}
+
+#resetGame{
+   color: white;
+  background-color: brown;
+}
